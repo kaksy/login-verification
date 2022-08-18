@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN-UP PAGE</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form " id="login">
+            <h1 class="form__tittle">Login</h1>
+            <div class="form__input-group"> 
+                <input type="email" class="input-type-data" id="signupEmail" autofocus placeholder="Email">
+                <div class="forms__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="input-type-data " id="input-form-data" autofocus placeholder="password">
+                <div class="forms__input-error-message"></div>
+            </div>
+            <div class="submit">
+                <button  class="submit" type="submit">Submit</button>
+            </div>
+
+            <div class=".form__message form__message--error"></div>
+            <p >fogot your password or you
+            dont have an account ? <br>
+            <a href="#" class="password-recovery" id="link-sign-in" >Sign in</a></p>
+
+        </form>
+        <form action="" class="form form-hidden" id="createaccount">
+            <h1 class="form__tittle ">Sign-in</h1>
+            <div class="form__input-group"> 
+                <input type="text" class="input-type-data" id="signupuser" autofocus placeholder="username">
+                <div class="forms__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="email" class="input-type-data " id="input-form-data" autofocus placeholder="Email">
+                <div class="forms__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="input-type-data " id="input-form-data" autofocus placeholder="Password">
+                <div class="forms__input-error-message "></div>
+            </div>
+            <div class="form__input-group">
+                <input type="radio" name="male" class="radio"><label for="radio" >male</label><input type="radio" class="radio" name="male"><label for="radio">Male</label>
+                <div class="forms__input-error-message"></div>
+            </div>
+            <div class="submit">
+                <button  class="submit" type="submit">Continue</button>
+            </div>
+
+            <div class=".form__message form__message--error"></div>
+            <p >Already have an account ? 
+            <a href="#" class="password-recovery" id="link-login" >log in</a></p>
+
+        </form>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
