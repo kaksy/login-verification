@@ -7,6 +7,9 @@
 
 .container{
     width: 100%;
+    background-image: url(/images/background\ pic\ page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     /* max-width: 350px; */
     height: 100vh;
     background-color: rgb(89, 25, 150);
