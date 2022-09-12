@@ -44,13 +44,14 @@ document.addEventListener('DOMContentLoaded',()=>{
          'invalid username/password combination')
      })
 //    let msg= inputElement.classList.add('form__input--error')
-     document.querySelectorAll('.input-type-data').forEach((inputElement) =>{
-        inputElement.addEventListener("mouseout", (e)=>{
+      document.querySelectorAll('.input-type-data').forEach(inputElement =>{
+        inputElement.addEventListener("blur", (e)=>{
             if (e.target.id === 'signupuser' && e.target.value.length > 0 && e.target.value.length < 10){
             inputError (inputElement , 'username must be at least 10 character in length')   
            }
         })
      })
+    
 })
 
 

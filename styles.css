@@ -102,3 +102,23 @@ input:focus{
 .submit:active{
     transform: scale(0.90);
 }
+
+@media(max-width:360px) {
+    .form__input--error{
+        border-color: red;
+        color: rgb(209, 19, 19);
+        display: flex;
+        flex-shrink: 1;
+        overflow-y: hidden;
+        z-index: 1;
+    } 
+    .container{
+        overflow: hidden;
+        width: fit-content;
+    } 
+    .form{
+        width: fit-content;
+        padding: none;
+    }
+
+}
